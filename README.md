@@ -28,6 +28,7 @@ atributo `href`
 # ATALHOS DO VISUAL STUDIO CODE
 
 Ctrl + B = Fecha a aba das pastas e arquivos
+Seleciona um trecho da tag e aperta os comandos CTRL + D para selecionar itens correspondentes.
 
 # ATALHO NAVEGADOR 
 CTRL + R ou CTRL + F5 = Recarrega a página e apaga o cache
@@ -68,3 +69,46 @@ Maneira 3 => padding com 3 valores distintos
 Maneira 4 => padding com 1 único valor
 
 /* padding: top/right/bottom/left */
+
+# DISPLAY
+
+Display: inline
+- Deixa os elementos lado a lado
+- elementos inline não possuem width e height
+- `tag <a>` tem comportamento inline por padrão
+
+Display: block
+- não deixa elementos na mesma linha;
+- elementos de bloco (display: block) podem definir largura e altura
+
+Display: inline-block
+
+- Possui o que há de melhor nos dois mundos :D
+- Deixa os elementos ficarem lado a lado
+- Podemos definir uma largura e altura para o elemento
+
+# LINE-HEIGHT
+
+- A propriedade line-height pode ser usada para centralizar um
+texto dentro de um botão verticalmente, bastando apenas defini-lá
+com o mesmo valor da altura;
+
+# Propriedade position
+
+position: absolute
+
+- cria um novo contexto;
+- o que define a largura e a altura é o novo conteúdo
+- top/bottom representam o eixo x
+- left/right representam o eixo y 
+- top/bottom/left/right mover em relação à página
+
+
+# EMMET 
+
+comando `bgc:transparent` quando uso o CTRL + D sobre o commando
+o VSCode exibe a propriedade CSS
+
+# VERTICAL-ALIGN
+
+Usado para alinhar verticalmente dois elementos com display: inline-block

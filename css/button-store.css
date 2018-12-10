@@ -1,0 +1,23 @@
+.button-store {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #252c41;
+    font-family: Arial, 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: none;
+}
+
+/* variação CSS 
+    seletor E
+*/
+.button-store.-second {
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 218px;
+    line-height: 56px;
+}
