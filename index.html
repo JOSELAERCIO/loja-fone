@@ -18,6 +18,7 @@
         <header class="header-store">
             <h1 class="title">Logo</h1>
             <nav class="navigation">
+                <input class="input-search" type="search" placeholder="Busca">
                 <a class="action" href="#">Produtos</a>
                 <a class="action" href="#">Serviços</a>
                 <a class="action" id="last" href="#">Carrinho(10)</a>
@@ -29,7 +30,14 @@
         <section class="wrap-product">
             <dl class="description-product">
                 <dt class="title">Fone top, feliz e caro</dt>
-                <dd class="item">4.0(97)</dd>
+                <dd class="item -star">
+                   <img src="img/star-active.png" alt="Estrela">
+                   <img src="img/star-active.png" alt="Estrela">
+                   <img src="img/star-active.png" alt="Estrela">
+                   <img src="img/star-active.png" alt="Estrela">
+                   <img src="img/star.png" alt="Estrela">
+                </dd>
+                <dd class="item">4.0 (97)</dd>
                 <dd class="item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
                 <dd class="item -info -last"><strong class="contrast">Preço</strong> C$ 340</dd>
                 <dd class="text">
@@ -39,13 +47,15 @@
                     Mas compre que você não vai se arrepender e se você se 
                     arrepender pode vender no mercado livre..kkkk
                 </dd>
-                <dd class="text"><a class="action" href="#">Saiba mais...</a></dd>   
+                <dd class="text -more"><a class="action" href="#">Saiba mais...</a></dd>   
             </dl>
+
+            <div class="buttons">
+                <button class="button-store -second">Adicionar no carrinho</button>
+                <a class="button-store" href="comprar.html">Comprar</a>
+            </div>
         </section>
-
-        <button class="button-store -second">Adicionar no carrinho</button>
-        <a class="button-store" href="comprar.html">Comprar</a>
-
+      
     </div>    
 </body>
 </html>

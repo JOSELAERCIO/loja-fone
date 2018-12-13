@@ -26,6 +26,23 @@ a {
     font-family: Segoe UI Regular;
 }
 
+.input-search {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 358px;
+    margin-right: 65px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.input-search::placeholder {
+    color: #fff;
+}
+
 .header-store .action {
     text-decoration: none;
     color: inherit;
