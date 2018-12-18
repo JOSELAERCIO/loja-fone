@@ -19,11 +19,16 @@ a {
     font-size: 40px;
     font-family: Arial, 'Roboto', sans-serif;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .header-store > .navigation {
     font-size: 21px;
     font-family: Segoe UI Regular;
+}
+
+.navigation > .action {
+    padding-bottom: 8px;
 }
 
 .input-search {
@@ -37,6 +42,7 @@ a {
     font-size: 20px;
     line-height: 24px;
     color: #fff;
+    cursor: pointer;
 }
 
 .input-search::placeholder {
