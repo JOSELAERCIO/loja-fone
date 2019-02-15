@@ -22,11 +22,25 @@
 }
 
 .heart {
-    transition: all 300ms linear;
+    width: 33px;
+    stroke: #252c41;
+    stroke-width: 30px;
+    fill: transparent;
 }
 
-.heart:hover {
-    transform: scale(1.5);
+.star {
+    width: 25px;
+    stroke: #252c41;
+    stroke-width: 30px;
+    fill: transparent;
+}
+
+.heart.-active {
+    fill: #252c41;
+}
+
+.star.-active {
+    fill: #252c41;
 }
 
 .description-product > .item.-star {
@@ -76,4 +90,34 @@
 
 .description-product .action {
     color: inherit;
+}
+
+@media (max-width: 1310px) {
+    .description-product {
+        width: 50%;
+        min-width: 655px;
+        margin: 0 auto 60px;
+    }
+
+    .description-product > .title {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .description-product > .item.-star {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .description-product > .item.-number {
+        padding-top: 4px;
+    }
+}
+
+@media (max-width: 720px) {
+    .description-product {
+        width: 90%;
+        min-width: auto;
+    }
 }

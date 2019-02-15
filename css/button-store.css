@@ -34,3 +34,24 @@
     color: #E24647;
     background-color: #fff;
 }
+
+
+@media (max-width: 500px) {
+    .buttons-store.-second {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    .button-store,
+    .button-store.-second {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button-store.-second {
+        margin-bottom: 20px;
+    }
+}
