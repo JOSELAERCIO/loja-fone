@@ -26,3 +26,9 @@
         transform: none;
     }
 }
+
+@media (max-width: 655px) {
+   .wrap-product > .buttons {
+       min-width: 0;
+   }
+}

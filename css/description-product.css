@@ -14,11 +14,16 @@
 }
 
 .description-product > .item.-heart {
-    position: absolute;
-    transform: translateX(-100%);
-    left: -47px;
-    top: 8px;
     cursor: pointer;
+}
+
+@media(min-width: 1310px) {
+    .description-product > .item.-heart {
+        position: absolute;
+        transform: translateX(-100%);
+        left: -47px;
+        top: 8px;
+    }
 }
 
 .heart {

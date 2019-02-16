@@ -15,6 +15,12 @@ a {
     overflow: hidden;
 }
 
+@media(max-width: 1360px) {
+  .header-store {
+    float: none;
+  }
+}
+
 .header-store > .title {
     float: left;
     font-size: 40px;
